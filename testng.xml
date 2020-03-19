@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FreshbeniesSuite">
+  <test thread-count="2" name="Sanitytest">
+    <classes>
+       <class name="com.qa.runner.TestRunner"/>
+    </classes>
+  </test> <!-- Sanitytest -->
+</suite> <!-- FreshbeniesSuite -->
