@@ -1,2 +1,7 @@
-2020-03-19 18:39:30 ERROR LoginPageSteps:123 - null
-2020-03-19 18:39:30 ERROR LoginPageSteps:106 - null
+2020-03-19 22:43:28 ERROR LoginPageSteps:123 - null
+2020-03-19 22:43:28 ERROR LoginPageSteps:106 - invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QUFA5SU', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ROSARY~1.VEN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 04c9b5cb9c70efd3a6cdc37a25f43827
