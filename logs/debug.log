@@ -1,1 +1,9 @@
-2020-03-20 14:50:30 ERROR LoginPageSteps:123 - null
+2020-03-20 16:08:03 ERROR LoginPageSteps:88 - no such element: Unable to locate element: {"method":"xpath","selector":"//small[@class='text-danger' and text()='Please enter your valid email add']"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QUFA5SU', ip: '10.100.102.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ROSARY~1.VEN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e9a6033c103c5184c1c50546b43bbb97
+*** Element info: {Using=xpath, value=//small[@class='text-danger' and text()='Please enter your valid email add']}

@@ -2,7 +2,7 @@ package com.qa.util;
 
 public class Constants {
 
-	public static final String ADMIN_HOMEPAGE_TITLE="Automation | Broker Quick Actions";
+	public static final String ADMIN_HOMEPAGE_TITLE="Automation | Broker Quick Actio";
 	public static final int DEFAULT_WAIT=50;
     public static final int EXPLICIT_WAIT=30;
     public static final int ELEMENT_WAIT=20;
