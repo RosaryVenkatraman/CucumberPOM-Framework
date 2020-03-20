@@ -24,7 +24,7 @@ public class AdminLoginPage extends BasePage{
 	@FindBy(xpath="//div[@role='alert' and @type='danger']")
 	WebElement alert;
 	
-	@FindBy(xpath="//small[@class='text-danger' and text()='Please enter your valid email address']")
+	@FindBy(xpath="//small[@class='text-danger' and text()='Please enter your valid email add']")
 	WebElement invalidemailid;
 	
 	public AdminLoginPage(WebDriver driver){
