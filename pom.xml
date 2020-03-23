@@ -116,6 +116,28 @@
 				</configuration>
 			</plugin>
 			
+			<plugin>
+				<groupId>net.masterthought</groupId>
+				<artifactId>maven-cucumber-reporting</artifactId>
+				<version>3.15.0</version>
+				<executions>
+					<execution>
+						<id>execution</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+						<configuration>
+							<!-- <projectName>FreshBenies</projectName> --> <!-- Replace with project name -->
+							<outputDirectory>${project.build.directory}/cucumber-reports/advanced-reports</outputDirectory>
+							<cucumberOutput>${project.build.directory}/cucumber-reports/CucumberTestReport.json</cucumberOutput>
+							<!--<buildNumber>1</buildNumber>-->
+							<parallelTesting>false</parallelTesting>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			
 		</plugins>
 	</build>
 </project>
